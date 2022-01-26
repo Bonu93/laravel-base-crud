@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Laravel-base-crud</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -33,12 +33,16 @@
           </nav>
     </header>
 
-    <main class="bg-dark text-light">
+    <main class="bg-dark text-light flex-grow-1">
         @yield('content')
     </main>
 
     <footer class="bg-dark text-light">
-        <h2>Footer</h2>
+        <div class="container text-center">
+            <h5>Create with &hearts; by Boolean
+            </h5>
+
+        </div>
     </footer>
 </body>
 </html>
