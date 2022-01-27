@@ -3,6 +3,10 @@ img {
 }
 
 .mh-600 {
-  min-height: 600px;
+  min-height: 700px;
+}
+
+.text {
+  min-height: 80px;
 }
 

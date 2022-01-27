@@ -39,7 +39,7 @@
 
     <footer class="bg-dark text-light">
         <div class="container text-center">
-            <h5>Create with &hearts; by Boolean
+            <h5>Created with &hearts; by Boolean
             </h5>
 
         </div>

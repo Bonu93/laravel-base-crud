@@ -11,10 +11,10 @@
                 <h2>{{$comic->title}}</h2>
                 <h3>{{$comic->series}}</h3>
                 <div class="price">
-                    Price: <span class="badge">{{$comic->price}}</span>
+                    Price: <span class="badge badge-info">{{$comic->price}}€</span>
                 </div>
                 <div class="date">
-                    Date: <span class="badge">{{$comic->sale_date}}</span>
+                    Date: <span class="badge badge-info">{{$comic->sale_date}}</span>
                 </div>
                 <p>{{$comic->description}}</p>
             </div>
